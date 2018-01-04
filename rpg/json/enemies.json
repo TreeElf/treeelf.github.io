@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Slime",
+    "attack": 1,
+    "defense": 0,
+    "stamina": 0,
+    "mana": 0,
+    "hp": 3,
+    "xp": 3,
+    "attacks": [
+      3,
+      4
+    ],
+    "minLevel": 1,
+    "maxLevel": 3
+  },
+  {
+    "name": "Demon",
+    "attack": 2,
+    "defense": 2,
+    "stamina": 0,
+    "mana": 0,
+    "hp": 10,
+    "xp": 10,
+    "attacks": [
+      1,
+      5
+    ],
+    "minLevel": 2,
+    "maxLevel": 4
+  },
+  {
+    "name": "Skeleton",
+    "attack": 3,
+    "defense": 0,
+    "stamina": 0,
+    "mana": 0,
+    "hp": 5,
+    "xp": 5,
+    "attacks": [
+      2,
+      3
+    ],
+    "minLevel": 1,
+    "maxLevel": 3
+  },
+  {
+    "name": "Necromancer",
+    "attack": 1,
+    "defense": 0,
+    "stamina": 0,
+    "mana": 15,
+    "hp": 15,
+    "xp": 15,
+    "attacks": [
+      2,
+      6
+    ],
+    "minLevel": 1,
+    "maxLevel": 8
+  }
+]
