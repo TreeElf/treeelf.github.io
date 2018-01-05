@@ -37,7 +37,6 @@
     cursor: pointer;
 }
 </style>
-<script src="rpg.js"></script>
 
 </head>
 <body>
@@ -48,19 +47,37 @@ Text Based RPG
 <button id="b" type="button" onclick="startGame()">Click Me To Start</button>
 </div>
 <br>
+
+<br>
 <div class="slidecontainer">
-  <p>Attack</p>
+  <div id=attackv>Attack - 0</div>
+  <br>
   <input id="attack" type="range" min="1" max="10" value="0" class="slider">
-  <p>Defense</p>
+  <br>
+  <br>
+  <div id=defensev>Defense - 0</div>
+  <br>
   <input id="defense" type="range" min="1" max="10" value="0" class="slider">
-  <p>Stamina</p>
+  <br>
+  <br>
+  <div id=staminav>Stamina - 0</div>
+  <br>
   <input id="stamina" type="range" min="0" max="10" value="0" class="slider">
-  <p>Mana</p>
+  <br>
+  <br>
+  <div id=manav>Mana - 0</div>
+  <br>
   <input id="mana" type="range" min="0" max="10" value="0" class="slider">
-  <p>HP</p>
-  <input id="hp" type="range" min="1" max="20" value="0" class="slider">
+  <br>
+  <br>
+  <div id=hpv>HP - 0</div>
+  <br>
+  <input id="hp" type="range" min="10" max="30" value="0" class="slider">
 </div>
-<div id="startbutton">
+<div id="startbutton"> 
+<br>
 <button id="char" type="button" onclick="createCharacter()">Click Me To Make Your Character</button>
+<script src="rpg.js"></script>
+
 </body>
 </html>
