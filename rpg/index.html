@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style>
+  <style>
 .slidecontainer {
     width: 100%;
 }
@@ -47,17 +47,18 @@ Text Based RPG
 <button id="b" type="button" onclick="startGame()">Click Me To Start</button>
 </div>
 <br>
-
+<div id="charactercreation">
+<div id="skillpoints">Skill Points Left: 30</div>
 <br>
 <div class="slidecontainer">
   <div id=attackv>Attack - 0</div>
   <br>
-  <input id="attack" type="range" min="1" max="10" value="0" class="slider">
+  <input id="attack" type="range" min="0" max="10" value="0" class="slider">
   <br>
   <br>
   <div id=defensev>Defense - 0</div>
   <br>
-  <input id="defense" type="range" min="1" max="10" value="0" class="slider">
+  <input id="defense" type="range" min="0" max="10" value="0" class="slider">
   <br>
   <br>
   <div id=staminav>Stamina - 0</div>
@@ -72,9 +73,10 @@ Text Based RPG
   <br>
   <div id=hpv>HP - 0</div>
   <br>
-  <input id="hp" type="range" min="10" max="30" value="0" class="slider">
+  <input id="hp" type="range" min="5" max="30" value="0" class="slider">
 </div>
 <div id="startbutton"> 
+</div>
 <br>
 <button id="char" type="button" onclick="createCharacter()">Click Me To Make Your Character</button>
 <script src="rpg.js"></script>
