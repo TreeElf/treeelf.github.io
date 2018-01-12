@@ -22,11 +22,12 @@
     text-align: center;
     background-color: #f9fbff;
 }
-body {
-    background-image: url("background.jpg");
-    background-position: center;
-    background-attachment: fixed;
-
+html { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .source-image {
   width: 100%;
