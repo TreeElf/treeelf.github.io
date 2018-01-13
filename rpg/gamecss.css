@@ -1,5 +1,31 @@
-div {
-    background-image:url('scenes/tavern.jpg');
-    background-repeat:no-repeat;
-    background-size:cover;
+html { 
+      background: url(scenes/tavern.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+
+.content1 {
+    max-width: 960px;
+    margin: auto;
+
+}
+.texte {
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+}
+.runbutton {
+	width:200px;
+    max-width: 960px;
+    margin: auto;
+	text-align: center;
+}
+.boxed {
+    border: 5px solid #6d9cf9;
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+    background-color: #f9fbff;
 }

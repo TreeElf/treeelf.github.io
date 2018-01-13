@@ -3,16 +3,61 @@
 <head>
   <style>
     
-    html { 
-      background: url(scenes/tavern.jpg) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
+    
   </style>
     <link rel="stylesheet" href="css/gamecss.css">
 </head>
-<body>
-</body>
+<body><div class="boxed">
+<br>    <font face="Arial" size="4">
+<div class="content1">Enter the number of times you want to run the cliff hanger simulation:
+<input type="number" id="inp" step="1" min="1" max="10000000" pattern="[0-9]{10}"/>
+</div>
+<div class="content1">
+If would like to change the probability of him stepping forward please enter a decimal: 
+<input value="0.33333" type="number" id="prob" step="1" min="1" max="10000000" pattern="[0-9]{10}"/>
+</div>
+</font>
+<font face="Arial" size=6"">
+<div class="runbutton">
+<button onclick="runCustom(document.getElementById('inp').value)">Run</button>
+</div>
+</font>
+
+<font face="Arial" size="2">
+  <div class="content1">
+<br>(Numbers larger than 10,000,000 may take a while)</font>
+</div>
+<br>
+<font face="Arial" size="3">
+<div id="wins" class="texte">
+
+  Wins: -
+  
+</div>
+<div id="losses" class="texte">
+  Losses: -
+</div>
+
+<div id="tfm" class="texte">
+Total Forward Moves: -
+</div>
+
+<div id="tbm" class="texte">
+  Total Backward Moves: -
+</div>
+
+<div id="tm" class="texte">
+  Total Moves: -
+</div>
+
+</font>
+<br><br><br>
+<font face="Arial" size="1">
+<div class="content1">
+  Written by Vadym Prokopov | Contact: vadym.prokopov2002@gmail.com
+  <br /><br />
+</div>
+</div>
+
 </html>
+</body>
